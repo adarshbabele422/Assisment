@@ -1,0 +1,22 @@
+/* ThemeToggler.css */
+.theme-toggler {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  body.light {
+    background-color: white;
+    color: rgb(50, 50, 50);
+  }
+  
+  body.dark {
+    background-color: rgb(12, 28, 1);
+    color: rgb(188, 187, 187);
+  }
+  
