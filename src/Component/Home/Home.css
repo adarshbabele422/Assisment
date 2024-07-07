@@ -41,8 +41,11 @@
     text-align: center;
 
   }
-  
-  
+  @media (max-width: 450px){
+    .slide .image{
+        height: 250px;
+    }
+  }
   
   .slide-content p {
     font-size: 1.2em;
@@ -196,7 +199,7 @@
         padding: 2px;
     }
     .achievements .counts .img{
-        padding-left: 8rem;
+        padding-left: 8vw;
     }
 }
 .customer{
@@ -334,7 +337,9 @@
         
     }
     .community-update-flex .img{
-        height: 300px;
+        height: 40vh;
+        width: 80vw;
+        margin: auto;
     }
     .update-menu{
         /* width: 500px !important; */
@@ -349,6 +354,20 @@
         /* left: 40%; */
         /* right: 1%; */
         border-radius: 6px;
+    }
+}
+@media (max-width: 950px){
+    .community-update-flex .img{
+        height: 45vw;
+        width: 80vw;
+        margin: auto;
+    }
+}
+@media (max-width: 650px){
+    .community-update-flex .img{
+        height: 35vh;
+        width: 80vw;
+        margin: auto;
     }
 }
 .foot{

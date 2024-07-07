@@ -80,7 +80,7 @@ const Home = ({ dotColor = "rgba(1, 60, 1, 0.479)", activeDotColor = "rgb(3, 154
               {slides[currentIndex].button.text}
             </a>
           </div>
-          <img src={slides[currentIndex].image} alt={`Slide ${currentIndex + 1}`} height={400} />
+          <img src={slides[currentIndex].image} className="image" alt={`Slide ${currentIndex + 1}`} height={400} />
         </div>
         <button className="next" onClick={nextSlide}>
         </button>
