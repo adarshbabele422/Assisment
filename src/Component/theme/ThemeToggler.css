@@ -19,4 +19,6 @@
     background-color: rgb(12, 28, 1);
     color: rgb(188, 187, 187);
   }
-  
+  body{
+    transition: background-color 0.5s ease-in, color 0.5s ease-out;
+  }
